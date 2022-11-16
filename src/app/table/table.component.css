@@ -1,0 +1,38 @@
+
+
+.mat-table {
+    width: 100%;
+  }
+  
+.mat-row.detail-row {
+  min-height: 0;
+}
+
+.mat-row.venue-row:not(.expanded-row):hover {
+  background: #777;
+}
+
+.mat-row.venue-row:not(.expanded-row):active {
+  background: #efefef;
+}
+
+.venue-row .mat-cell {
+  border-bottom-width: 0;
+}
+
+.venue-detail {
+  width: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+
+.venue-description {
+  padding: 16px;
+}
+
+.filter-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}

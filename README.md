@@ -1,27 +1,34 @@
 # LogexTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+This project was initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Comments on developing process
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Please note that this is my first-time experience with Angular and TypeScript whatsoever.
 
-## Running end-to-end tests
+### Implemented features
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This represents MVP - no bonus tasks were implemented. From initial task:
 
-## Further help
+* The table is auto-generated, it can be sorted by any of it's headers;
+* Filtering by substring is implemented, it works for any data in the table. Filtering by city selection is not implemented, only by substring.
+* Each venue can be expanded by click, which will show main picture, and requested details. If any info is missing, placeholder is provided.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Known issues
+
+* Expanding rows are now working well after fitering, for yet unknown reason first click doesn't show the expanded row. After closing it again, works as intended. Tried to mitigate it with forcebly closing all expanded rows on sorting event, but issue still remains.
+
+### Used materials
+
+Since it's my first time work with Angular, I leaned heavily into tutorials and examples. Here's most used:
+* [Tour of Heroes application and tutorial](https://angular.io/tutorial)
+* [Angular Material Sort Header](https://material.angular.io/components/sort/overview)
+* Extensive Googling and StackOverflow usage.
