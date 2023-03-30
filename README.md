@@ -32,3 +32,6 @@ Since it's my first time work with Angular, I leaned heavily into tutorials and 
 * [Tour of Heroes application and tutorial](https://angular.io/tutorial)
 * [Angular Material Sort Header](https://material.angular.io/components/sort/overview)
 * Extensive Googling and StackOverflow usage.
+
+
+# [Website](https://logex-test.netlify.app/)
